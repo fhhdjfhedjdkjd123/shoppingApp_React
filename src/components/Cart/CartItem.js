@@ -30,8 +30,8 @@ const CartItem = (props) => {
           x <span>{quantity}</span>
         </div>
         <div className={classes.actions}>
-          <button onClick={onIncrementHandler}>-</button>
-          <button onClick={onDecrementHandler}>+</button>
+          <button onClick={onDecrementHandler}>-</button>
+          <button onClick={onIncrementHandler}>+</button>
         </div>
       </div>
     </li>
